@@ -4,6 +4,9 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+window.axios = require('axios');
+require('@/assets/css/bulma.min.css');
+
 new Vue({
   router,
   render: h => h(App)
